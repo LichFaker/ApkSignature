@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lichfaker.apksignature.MainActivity">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="获取应用签名"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/packageField"
+            android:hint="输入应用包名"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/selectBtn"
+            android:text="选择"
+            android:layout_marginLeft="6dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/genSignatureBtn"
+        android:text="获取签名"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:text="结果:"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_margin="16dp"
+        tools:text="sffdsfdgfdfgd:"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/copyBtn"
+        android:text="复制到剪切板"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#4a4a4a"
+        android:textSize="16sp"
+        android:text="此工具仅用于获取安装到手机的第三方应用签名, 供开发者调试相关服务.\n签名的正确性需要由开发者自行保证"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
