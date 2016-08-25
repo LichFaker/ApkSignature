@@ -1,6 +1,8 @@
 GenSignature
 ======
- 一个获取已安装的APK的签名摘要的工具App, 在微信![签名生成工具](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&token=&lang=zh_CN)上增加了一些功能:
+![](https://travis-ci.org/LichFaker/ApkSignature.svg?branch=master)
+
+ 一个获取已安装的APK的签名摘要的工具App, 在微信[签名生成工具](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&token=&lang=zh_CN)上增加了一些功能:
  * 完善了下UI界面
  * 增加了应用列表, 通过选择直接获取应用包名
  * 在控制台日志输出签名结果
@@ -8,10 +10,11 @@ GenSignature
 
 应用截图
 -----
-![](./images/image1)
-![](./images/image2)
-![](./images/image3)
-![](./images/image4)
+
+![](images/image1.jpeg)
+![](images/image2.jpeg)
+![](images/image3.jpeg)
+![](images/image4.png)
 
 
 License
